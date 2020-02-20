@@ -1,0 +1,41 @@
+insert into CATEGORIES values ("1","Electronics","Electronics.jpg");
+insert into CATEGORIES values ("2","Fashion","Fashion.jpg");
+insert into CATEGORIES values ("3","Sports","Sports.jpg");
+
+
+
+insert into SUB_CATEGORIES values ("1","EM","Mobiles","Mobiles.jpg");
+insert into SUB_CATEGORIES values ("1","ET","TV","TV.jpg");
+
+
+insert into SUB_CATEGORIES values ("2","FM","Men's Fashion","Mens.jpg");
+insert into SUB_CATEGORIES values ("2","FW","Women Fashion","Womens.jpg");
+
+
+
+
+
+
+insert into PRODUCT values ("1","EM","EM1","Redmi Note 8",9999,75,"RedmiNote8.jpg");
+insert into PRODUCT values ("1","EM","EM2","Realme U1 Ambitious Black",7999,40,"RealmeU1.jpg");
+insert into PRODUCT values ("1","EM","EM3","Vivo U20 Blazing Blue",9990,68,"VivoU20.jpg");
+
+
+
+
+insert into PRODUCT values ("1","ET","ET1","OnePlus 55 Inch 4K TV",69899,500);
+insert into PRODUCT values ("1","ET","ET2","Mi LED TV 4A PRO 108 cm",21999,31);
+insert into PRODUCT values ("2","FM","FM1","Allen Solly Plain Slim Fit Casual Shirt",1399,20);
+insert into PRODUCT values ("2","FM","FM2","Adidas Mens Asweerun Running Shoes",5599,37);
+insert into PRODUCT values ("2","FM","FM3","Fastrack Chrono Analog Black Dial Watch",4890,5);
+insert into PRODUCT values ("2","FW","FW1","Jealous 21 Skinny Jeans",1890,54);
+insert into PRODUCT values ("2","FW","FW2","Lavie Sling Bag",1846,20);
+insert into PRODUCT values ("2","FW","FW3","RayBan Basic Black Sunglasses",2599,210);
+
+
+
+
+insert into ORDER_HISTORY (CUSTOMER_NAME, CART_TOTAL,ORDER_DATE) values("Deepak",100,"2010-12-10");
+
+
+insert into ORDER_DETAILS (PRODUCT_NAME , PRODUCT_QUANTITY , PRODUCT_PRICE , PRODUCT_TOTAL_PRICE ) values ("dEEPAK", 10,100,1000);
