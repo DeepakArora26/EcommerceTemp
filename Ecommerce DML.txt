@@ -13,6 +13,10 @@ insert into SUB_CATEGORIES values ("2","FW","Women Fashion","Womens.jpg");
 
 
 
+insert into SUB_CATEGORIES values ("3","SC","Cricket","Cricket.jpg");
+insert into SUB_CATEGORIES values ("3","SB","Badminton","Badminton.jpg");
+						         
+
 
 
 
@@ -23,16 +27,33 @@ insert into PRODUCT values ("1","EM","EM3","Vivo U20 Blazing Blue",9990,68,"Vivo
 
 
 
-insert into PRODUCT values ("1","ET","ET1","OnePlus 55 Inch 4K TV",69899,500);
-insert into PRODUCT values ("1","ET","ET2","Mi LED TV 4A PRO 108 cm",21999,31);
-insert into PRODUCT values ("2","FM","FM1","Allen Solly Plain Slim Fit Casual Shirt",1399,20);
-insert into PRODUCT values ("2","FM","FM2","Adidas Mens Asweerun Running Shoes",5599,37);
-insert into PRODUCT values ("2","FM","FM3","Fastrack Chrono Analog Black Dial Watch",4890,5);
-insert into PRODUCT values ("2","FW","FW1","Jealous 21 Skinny Jeans",1890,54);
-insert into PRODUCT values ("2","FW","FW2","Lavie Sling Bag",1846,20);
-insert into PRODUCT values ("2","FW","FW3","RayBan Basic Black Sunglasses",2599,210);
+insert into PRODUCT values ("1","ET","ET1","OnePlus 55 Inch 4K TV",69899,500,"OnePlusQ1.jpg");
+insert into PRODUCT values ("1","ET","ET2","Mi LED TV 4C PRO 80 cm",15499,31,"Mi4cPro.jpg");
+insert into PRODUCT values ("1","ET","ET3","Vu 80 cm UltraAndroid LED TV 32GA",10999,71,"Vu32GA.jpg");
 
 
+
+
+
+insert into PRODUCT values ("2","FM","FM1","Allen Solly Plain Slim Fit Casual Shirt",1399,20,"AllenSlimShirt.jpg");
+insert into PRODUCT values ("2","FM","FM2","Adidas Mens Asweerun Running Shoes",5599,37,"AdidasAsweerrun.jpg");
+insert into PRODUCT values ("2","FM","FM3","Fastrack Chrono Analog Black Dial Watch",4890,5,"FastrackChrono.jpg");
+
+
+
+insert into PRODUCT values ("2","FW","FW1","Jealous 21 Skinny Jeans",1890,54,"Jealous21.jpg");
+insert into PRODUCT values ("2","FW","FW2","Lavie Sling Bag",1846,20,"LavieSling.jpg");
+insert into PRODUCT values ("2","FW","FW3","MTV Gradient Cat Eye Women's Sunglasses",2599,210,"MtvGradient.jpg");
+
+
+
+
+insert into PRODUCT values ("3","SC","SC1","SG Kashmir Willow Cricket Bat",1508,100,"SgBat.jpg");
+insert into PRODUCT values ("3","SC","SC2","SAS Wooden Spring Back Stump Set",1399,48,"SasStumps.jpg");
+
+
+insert into PRODUCT values ("3","SB","SB1","SUNLEY Swag Body Badminton Racket Set",5699,24,"SunleyKit.jpg");
+insert into PRODUCT values ("3","SB","SB2","Li-Ning Sports Equipment Kit Bag",5699,24,"LiNingBag.jpg");
 
 
 insert into ORDER_HISTORY (CUSTOMER_NAME, CART_TOTAL,ORDER_DATE) values("Deepak",100,"2010-12-10");
