@@ -1,0 +1,211 @@
+insert into category (categoryId,categoryName,categoryImage) values ("1","Electronics","Electronics.jpg");
+insert into category (categoryId,categoryName,categoryImage) values ("2","Fashion","Fashion.jpg");
+insert into category (categoryId,categoryName,categoryImage) values ("3","Sports","Sports.jpg");
+
+
+
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("1","EM","Mobiles","Mobiles.jpg");
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("1","ET","TV","TV.jpg");
+
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("2","FM","Men's Fashion","Mens.jpg");
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("2","FW","Women Fashion","Womens.jpg");;
+
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("3","SC","Cricket","Cricket.jpg");
+insert into subcategory (categoryId,subCategoryId,subCategoryName,subCategoryImage) values  ("3","SB","Badminton","Badminton.jpg");
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("EM1","EM","Redmi Note 8",12999,9999,20,4.5,"RedmiNote8.jpg");
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM11","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM12","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM13","EM1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("EM2","EM","Realme U1 Ambitious Black",9999,7999,50,4,"RealmeU1.jpg");
+
+insert into ProductImages (imageId,productId,productImage) values ("EM21","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM22","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM23","EM2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("EM3","EM","Vivo U20 Blazing Blue",11499,9990,120,4.5,"VivoU20.jpg");
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM31","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM32","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM33","EM3","RedmiNote8.jpg");
+
+
+
+
+
+
+
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("ET1","ET","OnePlus 55 Inch 4K TV",74999,69899,5,3.5,"OnePlusQ1.jpg");
+
+
+insert into ProductImages (imageId,productId,productImage) values ("ET11","ET1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET12","ET1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET13","ET1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("ET2","ET","Mi LED TV 4C PRO 80 cm",21999,15499,5,3,"Mi4cPro.jpg");
+
+insert into ProductImages (imageId,productId,productImage) values ("ET21","ET2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET22","ET2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET23","ET2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("ET3","ET","Vu 80 cm UltraAndroid LED TV 32GA",13799,10999,120,4,thumbNail);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("ET31","ET3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET32","ET3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("ET33","ET3","RedmiNote8.jpg");
+
+
+
+
+
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("FM1","FM","Allen Solly Plain Slim Fit Casual Shirt",1650,1399,10,3.5,"AllenSlimShirt.jpg");
+
+
+insert into ProductImages (imageId,productId,productImage) values ("FM11","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM12","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM13","EM1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("FM2","FM","Adidas Mens Asweerun Running Shoes",7999,5599,78,4.2,"AdidasAsweerrun.jpg");
+
+insert into ProductImages (imageId,productId,productImage) values ("FM21","FM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM22","FM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM23","FM2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating,thumbNail)  values ("FM3","FM","Fastrack Chrono Analog Black Dial Watch",6210,4890,120,4,"FastrackChrono.jpg");
+
+
+insert into ProductImages (imageId,productId,productImage) values ("FM31","FM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM32","FM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("FM33","FM3","RedmiNote8.jpg");
+
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM1","EM","Redmi Note 8",12999,9999,20,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM11","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM12","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM13","EM1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM2","EM","Realme U1 Ambitious Black",9999,7999,50,4);
+
+insert into ProductImages (imageId,productId,productImage) values ("EM21","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM22","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM23","EM2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM3","EM","Vivo U20 Blazing Blue",11499,9990,120,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM31","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM32","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM33","EM3","RedmiNote8.jpg");
+
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM1","EM","Redmi Note 8",12999,9999,20,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM11","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM12","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM13","EM1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM2","EM","Realme U1 Ambitious Black",9999,7999,50,4);
+
+insert into ProductImages (imageId,productId,productImage) values ("EM21","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM22","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM23","EM2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM3","EM","Vivo U20 Blazing Blue",11499,9990,120,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM31","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM32","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM33","EM3","RedmiNote8.jpg");
+
+
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM1","EM","Redmi Note 8",12999,9999,20,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM11","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM12","EM1","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM13","EM1","RedmiNote8.jpg");
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM2","EM","Realme U1 Ambitious Black",9999,7999,50,4);
+
+insert into ProductImages (imageId,productId,productImage) values ("EM21","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM22","EM2","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM23","EM2","RedmiNote8.jpg");
+
+
+
+
+insert into product (productId,subCategoryId,productName,productMRP,productDiscountedPrice,productAvailableStock,productAverageRating)  values ("EM3","EM","Vivo U20 Blazing Blue",11499,9990,120,4.5);
+
+
+insert into ProductImages (imageId,productId,productImage) values ("EM31","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM32","EM3","RedmiNote8.jpg");
+insert into ProductImages (imageId,productId,productImage) values ("EM33","EM3","RedmiNote8.jpg");
+
+
+
+
+
+
+
+
